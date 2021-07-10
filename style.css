@@ -1,0 +1,64 @@
+body {
+  display: flex;
+  background: #d2d2c1 url('imagens/fundo.png');
+  font: 16px Arial, Helvetica, sans-serif;
+}
+
+#principal {
+  display: block;
+  width: 900px;
+}
+.menu {
+  padding: 18px;
+  background-color: #c5c5b2;
+}
+
+a {
+  margin: 0.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #4b566a;
+  text-decoration: none;
+  /* padding: 10px;  */
+}
+
+#conteudo h2 {
+  margin-top: 0;
+  color: #828271;
+}
+
+.foto {
+  margin: 0.5rem;
+  margin-left: 1.2rem;
+  border: 10px solid #c5c5b2;
+}
+blockquote {
+  margin: 0;
+  margin-left: 0;
+  margin-bottom: 0;
+  padding: 0;
+}
+blockquote p {
+  display: flexbox;
+  margin-left: 1.2rem;
+  margin-top: -0.5rem;
+  padding-top: 0;
+}
+
+#conteudo {
+  background-color: #e8e8e9;
+  padding: 10px;
+}
+
+.rodape {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.dados {
+  margin-top: -0.5rem;
+  margin-left: 1.5rem;
+}
+form {
+  margin-left: 1.5rem;
+}
